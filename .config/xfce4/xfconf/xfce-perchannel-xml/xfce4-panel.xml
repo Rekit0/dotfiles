@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="empty"/>
+  <property name="panels" type="empty">
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=800;y=11"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="20"/>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="background-alpha" type="empty"/>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="100"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="6"/>
+        <value type="int" value="7"/>
+        <value type="int" value="8"/>
+        <value type="int" value="4"/>
+        <value type="int" value="2"/>
+        <value type="int" value="5"/>
+        <value type="int" value="9"/>
+        <value type="int" value="10"/>
+        <value type="int" value="3"/>
+        <value type="int" value="13"/>
+      </property>
+      <property name="disable-struts" type="bool" value="false"/>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.180392"/>
+        <value type="double" value="0.203922"/>
+        <value type="double" value="0.211765"/>
+        <value type="double" value="1.000000"/>
+      </property>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="false"/>
+      <property name="workspace-scrolling" type="bool" value="true"/>
+    </property>
+    <property name="plugin-2" type="string" value="systemload"/>
+    <property name="plugin-3" type="string" value="pulseaudio">
+      <property name="items" type="empty"/>
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="show-notifications" type="bool" value="false"/>
+      <property name="mpris-players" type="string" value="chromium.instance2;firefox.instance10299;firefox.instance12687;firefox.instance12692;firefox.instance12845;firefox.instance13186;firefox.instance13531;firefox.instance13779;firefox.instance15794;firefox.instance16065;firefox.instance16085;firefox.instance19442;firefox.instance20397;firefox.instance2163;firefox.instance2169;firefox.instance22206;firefox.instance2245;firefox.instance2278;firefox.instance22945;firefox.instance2300;firefox.instance2312;firefox.instance2405;firefox.instance2459;firefox.instance2477;firefox.instance25005;firefox.instance25502;firefox.instance25620;firefox.instance2585;firefox.instance2629;firefox.instance2665;firefox.instance27379;firefox.instance2758;firefox.instance27760;firefox.instance27780;firefox.instance2785;firefox.instance2795;firefox.instance2839;firefox.instance2867;firefox.instance2889;firefox.instance2891;firefox.instance2903;firefox.instance2913;firefox.instance2925;firefox.instance2926;firefox.instance2929;firefox.instance2930;firefox.instance2932;firefox.instance2934;firefox.instance2938;firefox.instance2944;firefox.instance2947;firefox.instance2948;firefox.instance2951;firefox.instance2952;firefox.instance2958;firefox.instance2960;firefox.instance2962;firefox.instance29649;firefox.instance2965;firefox.instance2968;firefox.instance2975;firefox.instance2978;firefox.instance2979;firefox.instance2985;firefox.instance2989;firefox.instance2991;firefox.instance2994;firefox.instance3006;firefox.instance3008;firefox.instance3012;firefox.instance3013;firefox.instance3023;firefox.instance3026;firefox.instance3028;firefox.instance3029;firefox.instance3031;firefox.instance3041;firefox.instance3063;firefox.instance3072;firefox.instance3100;firefox.instance31005;firefox.instance3103;firefox.instance3115;firefox.instance3120;firefox.instance3125;firefox.instance3130;firefox.instance3135;firefox.instance3136;firefox.instance3165;firefox.instance3178;firefox.instance3181;firefox.instance3193;firefox.instance3267;firefox.instance3277;firefox.instance3280;firefox.instance3282;firefox.instance3345;firefox.instance33918;firefox.instance3399;firefox.instance3408;firefox.instance3419;firefox.instance3427;firefox.instance3448;firefox.instance3459;firefox.instance3505;firefox.instance3560;firefox.instance36089;firefox.instance3638;firefox.instance3666;firefox.instance36672;firefox.instance36747;firefox.instance3681;firefox.instance37593;firefox.instance3790;firefox.instance3795;firefox.instance3847;firefox.instance3874;firefox.instance3962;firefox.instance4376;firefox.instance44237;firefox.instance44672;firefox.instance45200;firefox.instance4613;firefox.instance4639;firefox.instance4655;firefox.instance4706;firefox.instance4950;firefox.instance4983;firefox.instance5181;firefox.instance5234;firefox.instance5280;firefox.instance5781;firefox.instance5821;firefox.instance5887;firefox.instance6008;firefox.instance6050;firefox.instance6218;firefox.instance6268;firefox.instance63968;firefox.instance64155;firefox.instance6654;firefox.instance6921;firefox.instance6986;firefox.instance7425;firefox.instance75487;firefox.instance7587;firefox.instance7682;firefox.instance8550;firefox.instance9226;firefox.instance9520;firefox.instance9884;firefox.instance9960;io.github.celluloid_player.Celluloid.instance-1;io.github.celluloid_player.Celluloid.instance-2;rhythmbox;spotify"/>
+      <property name="enable-wnck" type="bool" value="false"/>
+    </property>
+    <property name="plugin-4" type="string" value="xkb">
+      <property name="items" type="empty"/>
+      <property name="display-type" type="uint" value="1"/>
+      <property name="display-name" type="uint" value="1"/>
+      <property name="display-tooltip-icon" type="bool" value="false"/>
+      <property name="display-scale" type="uint" value="74"/>
+      <property name="group-policy" type="uint" value="0"/>
+    </property>
+    <property name="plugin-5" type="string" value="weather">
+      <property name="items" type="empty"/>
+    </property>
+    <property name="plugin-6" type="empty">
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="middle-click" type="empty"/>
+      <property name="show-labels" type="bool" value="true"/>
+      <property name="flat-buttons" type="bool" value="false"/>
+      <property name="show-wireframes" type="bool" value="false"/>
+      <property name="include-all-monitors" type="bool" value="false"/>
+      <property name="show-only-minimized" type="bool" value="false"/>
+      <property name="grouping" type="uint" value="0"/>
+    </property>
+    <property name="plugin-7" type="empty">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-8" type="empty">
+      <property name="names-visible" type="empty"/>
+      <property name="show-frame" type="bool" value="false"/>
+      <property name="names-ordered" type="array">
+        <value type="string" value="onboard"/>
+        <value type="string" value="jellyfin-mpv-desktop"/>
+        <value type="string" value="teamviewer"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="redshift-gtk"/>
+        <value type="string" value="@joplinapp-desktop"/>
+        <value type="string" value="trackma-gtk"/>
+        <value type="string" value="telegramdesktop"/>
+        <value type="string" value="klipper"/>
+        <value type="string" value="smb4k"/>
+        <value type="string" value="uget-gtk"/>
+        <value type="string" value="javaembeddedframe"/>
+        <value type="string" value="kde connect indicator"/>
+        <value type="string" value="stacer"/>
+        <value type="string" value="diodon"/>
+        <value type="string" value="turtl"/>
+        <value type="string" value="quiterss"/>
+        <value type="string" value="nextcloud"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="mintupdate.py"/>
+        <value type="string" value="tray.py"/>
+        <value type="string" value="deluge"/>
+        <value type="string" value="bitwarden"/>
+        <value type="string" value="electron-mail"/>
+        <value type="string" value="qbittorrent"/>
+        <value type="string" value="gpick"/>
+        <value type="string" value="task manager"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="thunar"/>
+      </property>
+      <property name="names-hidden" type="array">
+        <value type="string" value="turtl"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="@joplinapp-desktop"/>
+        <value type="string" value="smb4k"/>
+        <value type="string" value="stacer"/>
+        <value type="string" value="uget-gtk"/>
+        <value type="string" value="electron-mail"/>
+        <value type="string" value="mintupdate.py"/>
+        <value type="string" value="teamviewer"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="klipper"/>
+        <value type="string" value="task manager"/>
+        <value type="string" value="deluge"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="telegramdesktop"/>
+        <value type="string" value="redshift-gtk"/>
+        <value type="string" value="kde connect indicator"/>
+        <value type="string" value="javaembeddedframe"/>
+        <value type="string" value="diodon"/>
+        <value type="string" value="bitwarden"/>
+        <value type="string" value="qbittorrent"/>
+        <value type="string" value="trackma-gtk"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="gpick"/>
+        <value type="string" value="quiterss"/>
+        <value type="string" value="nextcloud"/>
+        <value type="string" value="tray.py"/>
+      </property>
+      <property name="square-icons" type="bool" value="true"/>
+    </property>
+    <property name="plugin-9" type="empty"/>
+    <property name="plugin-10" type="empty"/>
+    <property name="plugin-11" type="empty"/>
+    <property name="plugin-12" type="empty">
+      <property name="enable-keyboard-shortcuts" type="empty"/>
+      <property name="enable-mpris" type="empty"/>
+      <property name="mixer-command" type="empty"/>
+      <property name="show-notifications" type="empty"/>
+    </property>
+    <property name="plugin-13" type="empty">
+      <property name="digital-format" type="string" value="%I:%M %p"/>
+      <property name="mode" type="uint" value="2"/>
+    </property>
+  </property>
+</channel>
