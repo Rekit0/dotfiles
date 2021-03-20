@@ -17,4 +17,5 @@ alias lt='exa -aT --color=always --group-directories-first' # tree listing
 
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
-bash /opt/shell-color-scripts/random.sh
+bash random-colorscript
+
